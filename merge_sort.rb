@@ -28,5 +28,6 @@ end
 
 include MergeSort
 
-# p merge_sort([4, 2, 1, 3, 6, 5, 8, 7])
-# returns [1, 2, 3, 4, 5, 6, 7, 8]
+# p shuffled_array = (1..30).to_a.shuffle()
+# returns the numbers 1 to 30, shuffled randomly
+# p merge_sort(shuffled_array) returns the numbers in increasing order.
